@@ -6,7 +6,7 @@ if(a>0){
 }else{
     console.log(" a soni manfiy");
 }*/
-
+//----------------------------------------------------------------------------
 //2- misol va 3- misol
 
 /*let a = +prompt("a sonini kiriting");
@@ -18,7 +18,7 @@ if (Number.isInteger(a) && a % 2 != 0){
     console.log("Iltimos butun son kiriting !");
 }*/
 
-
+//----------------------------------------------------------------------------
 // 4 -misol
 
 /*let a = +prompt("a sonini kiriting");
@@ -30,6 +30,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
     console.log(" siz kiritgan  a va b sonlar butun sonlar va manfiy sonlar");
 }*/
 
+//----------------------------------------------------------------------------
+
 // 5- misol
 
 // let a = +prompt("a sonini kiriting");
@@ -40,6 +42,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 // }else{
 //     console.log("siz kiritgan sonlar berilgan shartga tushmaydi boshqattan kiriting");
 // }
+
+//----------------------------------------------------------------------------
 
 // 6 - misol
 
@@ -53,6 +57,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("b soni a va c sonlarini orasida emas ! Boshqattan sonlarni kiriting");
 // }
 
+//----------------------------------------------------------------------------
+
 // 7- misol
 
 // let a = +prompt("a sonini kiriting");
@@ -62,6 +68,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 // }else{
 //     console.log("sizkiritgan sonlar ten tog bo'lishligi kerak")
 // }
+
+//----------------------------------------------------------------------------
 
 // 8- misol
 
@@ -76,6 +84,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 // }
 
 
+//----------------------------------------------------------------------------
+
 // 9- misol
 
 // let a = +prompt("a sonini kiriting");
@@ -87,6 +97,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 // }else{
 //     console.log("siz kiritgamn sonlarnig  kamida ikkitasi musbat bo'lishligi kerak ! iltimos qaytatdan son kirgizing");
 // }
+
+//----------------------------------------------------------------------------
 
 // 10 -misol
 
@@ -110,8 +122,42 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log(`${a} - bunday hafta kuni yo'q`);
 // }
 
+//----------------------------------------------------------------------------
+
 // 11 -misol
 
+/*let phone = +prompt('Telafon raqamingizni kiriting:');
+let phone2 = phone[0] + phone[1];
+
+if(phone2 == 99){
+    console.log(`Uzmobile nomer: ${phone}`);
+}else if(phone2 == 97){
+    console.log(`Mobiuz nomer: ${phone}`);
+}else if(phone2 == 94){
+    console.log(`Usell nomer: ${phone}`);
+}else if(phone2 == 90){
+    console.log(`Beeline nomer: ${phone}`);
+}else{
+    console.log("kechirasiz sinig ragamingiz kampaniyasi topilmadi , iltimos boshqa raqam kirgizing!");
+}*/ //ishlamadi qandaydit bug
+
+// let phone = prompt("Telefon raqamingizni kiriting:");
+
+// let phoneCode = phone[0] + phone[1];
+
+// if(phoneCode === "99"){
+//     console.log(`Uzmobile nomer: ${phone}`);
+// }else if(phoneCode === "97"){
+//     console.log(`Mobiuz nomer: ${phone}`);
+// }else if(phoneCode === "94"){
+//     console.log(`Usell nomer: ${phone}`);
+// }else if(phoneCode === "90"){
+//     console.log(`Beeline nomer: ${phone}`);
+// }else{
+//     console.log("kechirasiz sinig ragamingiz kampaniyasi topilmadi , iltimos boshqa raqam kirgizing!"); 
+// }
+
+//-----------------------------------------------------------------------------------------------------
 
 // 12-misol
 
@@ -125,6 +171,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("Iltimos butun son liriting !");
 // }
 
+//----------------------------------------------------------------------------
+
 //13 -misol
  
 // let a = +prompt("son kiriting");
@@ -137,6 +185,7 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("iltimos qaytatdan butun son kiriting");
 // }
 
+//--------------------------------------------------------------------------------------------
 
 // 14 - misol
 
@@ -152,6 +201,7 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("iltimos butun son kiriting");
 // }
 
+//--------------------------------------------------------------------------------------------------
 
 // 15 - misol
 
@@ -169,6 +219,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("iltimos butun son kiriting");
 // }
 
+//-----------------------------------------------------------------------------------------------------
+
 // 16 - misol
 
 // let a = +prompt("a sonini kiriting :");
@@ -185,9 +237,13 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("iltimos qayta tekshiring");
 // }
 
+//-------------------------------------------------------------------------------------------
+
 // 17 - misol
 
 
+
+//-----------------------------------------------------------------------------------------------------------------
 
 // 18 - misol
 
@@ -205,6 +261,8 @@ if (Number.isInteger(a) &&  Number.isInteger(b) && a > 0 && b > 0){
 //     console.log("Iltimos mezom bo'yicha rost bahoyingizni kiriting !");
 // }
 
+//--------------------------------------------------------------------------------------
+
 // 19 - misol
 
 /*let a = +prompt(" Ihtiyori butun son kiriting");
@@ -221,6 +279,8 @@ if (Number.isInteger(a) && a > 0 && a % 2 == 0){
     console.log("Iltimos butun son kiritin !");
 }*/
 
+//-----------------------------------------------------------------------------------------
+
 // 20 - misol
 
 // let a = +prompt("Tugulgan yilingizni kiriting");
@@ -231,3 +291,106 @@ if (Number.isInteger(a) && a > 0 && a % 2 == 0){
 //     console.log(" Iltimos tugulgan yilingizni to'gri kiriting");
 // }
 
+//------------------------------------------------------------------------------------------
+
+// 21 - misol 
+
+// let a = +prompt("a sonini kieriting :");
+// let b = +prompt("b sonini kieriting :");
+// let c = +prompt("c sonini kieriting :");
+
+// if(a <= b && b <= c){
+//     console.log("True");
+// }else{
+//     console.log("False");
+// }
+
+//----------------------------------------------------------------------------
+
+// 22- misol
+
+// let a = +prompt("a sonini kiriting :");
+// let b = +prompt("b sonini kiriting :");
+// if (Number.isInteger(a) && a % 2 == 0 && Number.isInteger(b) && b % 2 == 0 ){
+//     console.log("Siz kiritgan ikala sonham juft");
+// }else if (Number.isInteger(a) && a % 2 != 0 && Number.isInteger(b) && b % 2 != 0 ){
+//     console.log("Siz kiritgan ikala sonham tog");
+// }else if (Number.isInteger(a) && a % 2 != 0 && Number.isInteger(b) && b % 2 == 0 ){
+//     console.log("Siz kiritgan 'a' soni tog");
+// }else if (Number.isInteger(a) && a % 2 == 0 && Number.isInteger(b) && b % 2 != 0 ){
+//     console.log("Siz kiritgan 'b' soni tog");
+// }else{
+//     console.log("Iltimos janob butun son kiriting !");
+// }
+
+//----------------------------------------------------------------------------
+
+// 23-misol
+
+// let a = +prompt("a sonini kieriting :");
+// let b = +prompt("b sonini kieriting :");
+// let c = +prompt("c sonini kieriting :");
+// if(a>0 && b > 0 && c >0){
+//     console.log("siz kiritgam barcha sonlar musbat !");
+// }else{
+//     console.log("False");
+// }
+
+//----------------------------------------------------------------------------
+
+// 24- misol
+
+// let a = +prompt("a sonini kieriting :");
+// let b = +prompt("b sonini kieriting :");
+// let c = +prompt("c sonini kieriting :");
+
+// if(a % 2 != 0 && b % 2 == 0 && c % 2 == 0){
+//     console.log(`siz kiritgan ${a} soni tog`);
+// }else if(a % 2 == 0 && b % 2 != 0 && c % 2 == 0){
+//     console.log(`siz kiritgan ${b} soni tog`);
+// }else if(a % 2 == 0 && b % 2 == 0 && c % 2 != 0){
+//     console.log(`siz kiritgan ${c} soni tog`);
+// }else{
+//     console.log("kiritgan sonlariz ichida tog son mavjut emas !");
+// }
+
+//--------------------------------------------------------------------------------------
+
+// 24 ,2 - misol
+
+/*let a = +prompt("a sonini kieriting :");
+let b = +prompt("b sonini kieriting :");
+let c = +prompt("c sonini kieriting :");
+
+if(a > 0 && b < 0 && c < 0){
+    console.log(`siz kiritgan ${a} soni musbat`);
+}else if(a < 0 && b > 0 && c < 0){
+    console.log(`siz kiritgan ${b} soni musbat`);
+}else if(a < 0 && b < 0 && c > 0){
+    console.log(`siz kiritgan ${c} soni musbat`);
+}else if(a < 0 && b < 0 && c < 0){
+    console.log("Siz kiritgan barcha sonlar manfiy !");
+}else if(a > 0 && b > 0 && c > 0){
+    console.log("Siz kiritgan barcha sonlar musbat !");
+}else{
+    console.log("Erorr");
+}*/
+
+//-------------------------------------------------------------------
+
+// 27 -misol
+
+let a = prompt("Yoqtirgan kompyuteringizni tanlang 'Mac' , 'Samsung' , 'Lenovo' , 'HP' , 'Asus' :");
+if (a==="Mac"){
+    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1200$";
+}else if (a==="Samsung"){
+    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1000$";
+}else if (a==="Lenovo"){
+    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 900$";
+}else if (a==="HP"){
+    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 800$";
+}else if (a==="Asus"){
+    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 990$";
+}else{
+    document.body.innerHTML = "Siz tanlagan kompyuter bizda yoq ! Bizda bor kompyuterlarni ko'rishimgizni maslahat beramiz janob ☺️Siz tanlagan kompyuternig narhi: ";
+}
