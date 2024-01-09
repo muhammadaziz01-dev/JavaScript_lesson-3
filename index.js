@@ -392,5 +392,21 @@ if(a > 0 && b < 0 && c < 0){
 // }else if (a==="Asus"){
 //     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 990$";
 // }else{
-//     document.body.innerHTML = "Siz tanlagan kompyuter bizda yoq ! Bizda bor kompyuterlarni ko'rishimgizni maslahat beramiz janob ☺️Siz tanlagan kompyuternig narhi: ";
+//     document.body.innerHTML = "Siz tanlagan kompyuter bizda yoq ! Bizda bor kompyuterlarni ko'rishimgizni maslahat beramiz janob";
 // }
+
+//--------------------------------------------------------------------------------------
+
+// Nazariy misolllar
+
+let parol = prompt("Iltimos parolingizni kiriting !");
+
+if (parol.length > 30){
+    console.log(`Supper !!! ${parol} bu paro'lni ozingiz esla qola olasizmi ? 😂😂😂😂`);
+}else if (parol.length > 16){
+    console.log("sizning parolingiz supeer darajada mustahkam !");
+}else if (parol.length > 8){
+    console.log("sizning parolingiz etarli darajada mustahkam !");
+}else if (parol.length < 8){
+    console.log("sizning parolingiz etarli darajada kuchlik emas iltimos parolingizni mustahkamlang !");
+}
