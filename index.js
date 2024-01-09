@@ -380,17 +380,17 @@ if(a > 0 && b < 0 && c < 0){
 
 // 27 -misol
 
-let a = prompt("Yoqtirgan kompyuteringizni tanlang 'Mac' , 'Samsung' , 'Lenovo' , 'HP' , 'Asus' :");
-if (a==="Mac"){
-    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1200$";
-}else if (a==="Samsung"){
-    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1000$";
-}else if (a==="Lenovo"){
-    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 900$";
-}else if (a==="HP"){
-    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 800$";
-}else if (a==="Asus"){
-    document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 990$";
-}else{
-    document.body.innerHTML = "Siz tanlagan kompyuter bizda yoq ! Bizda bor kompyuterlarni ko'rishimgizni maslahat beramiz janob ☺️Siz tanlagan kompyuternig narhi: ";
-}
+// let a = prompt("Yoqtirgan kompyuteringizni tanlang 'Mac' , 'Samsung' , 'Lenovo' , 'HP' , 'Asus' :");
+// if (a==="Mac"){
+//     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1200$";
+// }else if (a==="Samsung"){
+//     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 1000$";
+// }else if (a==="Lenovo"){
+//     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 900$";
+// }else if (a==="HP"){
+//     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 800$";
+// }else if (a==="Asus"){
+//     document.body.innerHTML = "Siz tanlagan kompyuternig narhi: 990$";
+// }else{
+//     document.body.innerHTML = "Siz tanlagan kompyuter bizda yoq ! Bizda bor kompyuterlarni ko'rishimgizni maslahat beramiz janob ☺️Siz tanlagan kompyuternig narhi: ";
+// }
