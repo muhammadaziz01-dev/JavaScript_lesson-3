@@ -397,16 +397,186 @@ if(a > 0 && b < 0 && c < 0){
 
 //--------------------------------------------------------------------------------------
 
+
 // Nazariy misolllar
 
-let parol = prompt("Iltimos parolingizni kiriting !");
+// let parol = prompt("Iltimos parolingizni kiriting !");
 
-if (parol.length > 30){
-    console.log(`Supper !!! ${parol} bu paro'lni ozingiz esla qola olasizmi ? 😂😂😂😂`);
-}else if (parol.length > 16){
-    console.log("sizning parolingiz supeer darajada mustahkam !");
-}else if (parol.length > 8){
-    console.log("sizning parolingiz etarli darajada mustahkam !");
-}else if (parol.length < 8){
-    console.log("sizning parolingiz etarli darajada kuchlik emas iltimos parolingizni mustahkamlang !");
+// if (parol.length > 30){
+//     console.log(`Supper !!! ${parol} bu paro'lni ozingiz eslab qola olasizmi ? 😂😂😂😂`);
+// }else if (parol.length > 16){
+//     console.log("sizning parolingiz supeer darajada mustahkam !");
+// }else if (parol.length > 8){
+//     console.log("sizning parolingiz etarli darajada mustahkam !");
+// }else if (parol.length < 8){
+//     console.log("sizning parolingiz etarli darajada kuchlik emas iltimos parolingizni mustahkamlang !");
+// }
+
+//-------------------------------------------------------------------------------------------------------------------
+
+//   Swichga oid misollar
+
+//   1-Misol 
+
+// let a = +prompt("Ihtiyori hafta kunini kiriting");
+
+// if (Number.isInteger(a)){
+//     switch (a){
+//         case 1 :
+//             console.log(`haftaning  ${a} - kuni dushanba`);
+//             break;
+//         case 2 :
+//             console.log(`haftaning  ${a} - kuni siyshanba`);
+//             break;
+//         case 3 :
+//             console.log(`haftaning  ${a} - kuni chorshanba`);
+//             break;
+//         case 4 :
+//             console.log(`haftaning  ${a} - kuni payshanba`);
+//             break;
+//         case 5 :
+//             console.log(`haftaning  ${a} - kuni juma`);
+//             break;
+//         case 6 :
+//             console.log(`haftaning  ${a} - kuni shanba`);
+//             break;
+//         case 7 :
+//             console.log(`haftaning  ${a} - kuni yakshanba`);
+//             break;
+//         default:
+//            console.log(`${a} haftada bunday kun mavjud emas !`);
+    
+//     }
+// }else{
+//     console.log(`${a} <- siz yangi hafta kunini kashf qilmoqchimisiz janob ? Iltimos butun sana kiriting !`);
+// }
+
+//------------------------------------------------------------------------------------------------------------------------
+
+// 2- Misoll
+
+// let a = +prompt("Bahoyingizni kiriting");
+
+// if(Number.isInteger(a) && a >0 && a < 6){
+//     switch (a){
+//         case 1 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  yomon `);
+//             break;
+//         case 2 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  qoniqarsiz `);
+//             break;
+//         case 3 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  qoniqarli `);
+//             break;
+//          case 4 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  yahshi `);
+//             break;
+//         case 5 :
+//             console.log(`Sizning bahoyingiz(' ${a} ')  alo `);
+//             break;   
+//     }
+// }else{
+//     console.log("Baholash tizimida bunday baho mavjud emas , iltimos janob rost bahoyingizni kiriting !");
+// }
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+// 3 - Misol
+
+// let a = +prompt("Oy raqamini kiriting :");
+
+// if(Number.isInteger(a) && a > 0 && a < 13){
+//     switch(a){
+//         case 12:
+//         case 1 :
+//         case 2 :
+//             console.log(`${a} - oy qish fasli`);
+//             break;
+//         case 3 :
+//         case 4 :
+//         case 5 :
+//             console.log(`${a} - oy bahor fasli`);
+//             break;
+//         case 6 :
+//         case 7 :
+//         case 8 :
+//             console.log(`${a} - oy yoz fasli`);
+//             break;
+//         case 9 :
+//         case 10 :
+//         case 11 :
+//             console.log(`${a} - oy kuz fasli`);
+//             break;    
+//     }
+// }else{
+//     console.log(`${a} bunday oy kuni mavjud emas !`);
+// }
+
+//----------------------------------------------------------------------------
+
+// 4- misol
+
+// let a = +prompt("Oy raqamini kiriting :");
+// if(Number.isInteger(a) && a > 0 && a < 13){
+//     switch (a){
+//         case 1 :
+//         case 3 :
+//         case 5 :
+//         case 7 :
+//         case 8 :
+//         case 10 :
+//         case 12 :          
+//             console.log(`${a} - oyda 31 kun bor`);
+//             break;
+//         case 2 :
+//             console.log(`${a} - oyda 29 kun bor`);
+//             break; 
+//         case 4 :
+//         case 6 :
+//         case 9 :
+//         case 11 :           
+//             console.log(`${a} - oyda 30 kun bor`);
+//             break;       
+//     }
+// }else{
+//     console.log(`(' ${a} ') bunday oy mavjut emas !`);
+// }
+
+//---------------------------------------------------------------------
+
+// 5 - misol
+
+let a = +prompt("A sonini kiriting");
+let b = +prompt("B sonini kiriting");
+let s = prompt("matematik amal kiriting ( + ) , ( - ) , ( * ) , ( / ) ,  ( % ) ,");
+console.log(`A = ${a}`);
+console.log(`B = ${b}`);
+
+switch (s){
+    case "+" :
+        var c = a + b;
+        console.log(`siz kiritgan sonlarning qo'shilmasi ${c} ga  teng !`);
+        break;
+    case "-" :
+        c = a - b;
+        console.log(`siz kiritgan sonlarning ayrilmasi ${c} ga  teng !`);
+        break;
+        
+    case "*" :
+        c = a * b;
+        console.log(`siz kiritgan sonlarning ko'paytmasi ${c} ga  teng !`);
+        break;
+    case "/" :
+        c = a / b;
+        console.log(`siz kiritgan sonlarning bo'linmasi ${c} ga  teng !`);
+        break;
+    case "%" :
+        c = a % b;
+        console.log(`siz kiritgan sonlarning qoldiqli bo'linmasi ${c} ga  teng !`);
+        break;
+    default : 
+        console.log(`Matematik amal kiritishingiz kerak janob !`);
+        
 }
+
+//------------------------------------------------------------------------------------------------------------------
