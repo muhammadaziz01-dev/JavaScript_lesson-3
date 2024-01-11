@@ -546,37 +546,72 @@ if(a > 0 && b < 0 && c < 0){
 
 // 5 - misol
 
-let a = +prompt("A sonini kiriting");
-let b = +prompt("B sonini kiriting");
-let s = prompt("matematik amal kiriting ( + ) , ( - ) , ( * ) , ( / ) ,  ( % ) ,");
-console.log(`A = ${a}`);
-console.log(`B = ${b}`);
+// let a = +prompt("A sonini kiriting");
+// let b = +prompt("B sonini kiriting");
+// let s = prompt("matematik amal kiriting ( + ) , ( - ) , ( * ) , ( / ) ,  ( % ) ,");
+// console.log(`A = ${a}`);
+// console.log(`B = ${b}`);
 
-switch (s){
-    case "+" :
-        var c = a + b;
-        console.log(`siz kiritgan sonlarning qo'shilmasi ${c} ga  teng !`);
-        break;
-    case "-" :
-        c = a - b;
-        console.log(`siz kiritgan sonlarning ayrilmasi ${c} ga  teng !`);
-        break;
+// switch (s){
+//     case "+" :
+//         var c = a + b;
+//         console.log(`siz kiritgan sonlarning qo'shilmasi ${c} ga  teng !`);
+//         break;
+//     case "-" :
+//         c = a - b;
+//         console.log(`siz kiritgan sonlarning ayrilmasi ${c} ga  teng !`);
+//         break;
         
-    case "*" :
-        c = a * b;
-        console.log(`siz kiritgan sonlarning ko'paytmasi ${c} ga  teng !`);
-        break;
-    case "/" :
-        c = a / b;
-        console.log(`siz kiritgan sonlarning bo'linmasi ${c} ga  teng !`);
-        break;
-    case "%" :
-        c = a % b;
-        console.log(`siz kiritgan sonlarning qoldiqli bo'linmasi ${c} ga  teng !`);
-        break;
-    default : 
-        console.log(`Matematik amal kiritishingiz kerak janob !`);
+//     case "*" :
+//         c = a * b;
+//         console.log(`siz kiritgan sonlarning ko'paytmasi ${c} ga  teng !`);
+//         break;
+//     case "/" :
+//         c = a / b;
+//         console.log(`siz kiritgan sonlarning bo'linmasi ${c} ga  teng !`);
+//         break;
+//     case "%" :
+//         c = a % b;
+//         console.log(`siz kiritgan sonlarning qoldiqli bo'linmasi ${c} ga  teng !`);
+//         break;
+//     default : 
+//         console.log(`Matematik amal kiritishingiz kerak janob !`);
         
-}
+// }
 
 //------------------------------------------------------------------------------------------------------------------
+
+
+// Qo'sshiimcha misollar
+
+
+/*let html = true;
+let css = true;
+
+if (html && css){
+    console.log('Siz kegingi kursni boshlashingiz mumkun !');
+}else if (html || css){
+    console.log('Iltimos ikkinchi kursni ham tugating !');
+}else{
+    console.log("Siz ikkala kursni ham tugatishim=ngiz kerak");
+}*/
+
+//------------------------------------------------
+
+let a = prompt("Siz bizning HTML kursimizni tugatganmisiz ?");
+let b = prompt("Siz bizning CSS kursimizni tugatganmisiz ?");
+console.log(a);
+console.log(b);
+a = `${a}` ;
+b = `${b}`;
+if (a == "ha" && b == "ha"){
+    console.log("Siz kegingi bootstrap kursimizni boslashingiz mumkun !🎉🎉");
+}else if (a == "yo'q" && b == "ha" || a == "ha" && b == "Yo'q"){
+    console.log("Iltimoos janob ikkala kursni ham  to'liq tugating !");
+}else if(a == "yo'q" && b == "yo'q"){
+    console.log("Avva ikkala kursni tugating !"); 
+}else{
+    console.log("Janob to'gri malumot kirgizing  !");
+}
+
+
