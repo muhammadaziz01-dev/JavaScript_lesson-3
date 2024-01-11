@@ -579,6 +579,31 @@ if(a > 0 && b < 0 && c < 0){
         
 // }
 
+//----------------------------------------------------------------------------------------------------------
+
+// 6- misol
+// Bahoga qarab stipendiya aniqlash
+
+// let a= +prompt("Bahoyimgizni kiriting ( 5, 4, 3, 2, 1)");
+// switch (a){
+//     case 1 :
+//     case 2 :
+//         console.log(`${a} - Bu baho stipendiya ushun noloyiq !`)
+//         break;
+//     case 3 :
+//         console.log(`${a} - Siznig bahoyingiz stipendaya uchun kamlik qiladi , yahshiroq harakat qiling janob !`)
+//         break; 
+//     case 4 :
+//         console.log(`${a} - Siznig stipendiyangiz 500 000 so'm 👍`)
+//         break;
+//     case 5 :
+//         console.log(`${a} - Siznig stipendiyangiz
+//          1 500 000 so'm 🎉🎉🎉`)
+//         break;
+//     default :
+//           console.log("Iltimos rost bahoyingizni kiriting !")          
+// }
+
 //------------------------------------------------------------------------------------------------------------------
 
 
@@ -598,20 +623,20 @@ if (html && css){
 
 //------------------------------------------------
 
-let a = prompt("Siz bizning HTML kursimizni tugatganmisiz ?");
-let b = prompt("Siz bizning CSS kursimizni tugatganmisiz ?");
-console.log(a);
-console.log(b);
-a = `${a}` ;
-b = `${b}`;
-if (a == "ha" && b == "ha"){
-    console.log("Siz kegingi bootstrap kursimizni boslashingiz mumkun !🎉🎉");
-}else if (a == "yo'q" && b == "ha" || a == "ha" && b == "Yo'q"){
-    console.log("Iltimoos janob ikkala kursni ham  to'liq tugating !");
-}else if(a == "yo'q" && b == "yo'q"){
-    console.log("Avva ikkala kursni tugating !"); 
-}else{
-    console.log("Janob to'gri malumot kirgizing  !");
-}
+// let a = prompt("Siz bizning HTML kursimizni tugatganmisiz ?");
+// let b = prompt("Siz bizning CSS kursimizni tugatganmisiz ?");
+// console.log(a);
+// console.log(b);
+// a = `${a}` ;
+// b = `${b}`;
+// if (a == "ha" && b == "ha"){
+//     console.log("Siz kegingi bootstrap kursimizni boslashingiz mumkun !🎉🎉");
+// }else if (a == "yo'q" && b == "ha" || a == "ha" && b == "Yo'q"){
+//     console.log("Iltimoos janob ikkala kursni ham  to'liq tugating !");
+// }else if(a == "yo'q" && b == "yo'q"){
+//     console.log("Avva ikkala kursni tugating !"); 
+// }else{
+//     console.log("Janob to'gri malumot kirgizing  !");
+// }
 
 
